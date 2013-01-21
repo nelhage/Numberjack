@@ -33,3 +33,4 @@ BUNDLE = -shared
 endif
 
 
+LFLAGS+=-Wl,--no-as-needed

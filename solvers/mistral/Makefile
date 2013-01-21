@@ -105,7 +105,7 @@ PYTHON = $(MISTRALDIR)/python
 CFLAGS += -I$(INC) -I$(SRCDIR)\
 `xml2-config --cflags`
 
-LFLAGS = -L$(OBJ) \
+LFLAGS += -L$(OBJ) \
 `xml2-config --libs`
 
 
